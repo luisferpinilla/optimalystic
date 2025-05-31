@@ -1,6 +1,6 @@
 import json
 import pytest
-from ..models import *
+from optimalystic.models import *
 
 
 def test_json_model_valido():
