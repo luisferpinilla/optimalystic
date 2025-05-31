@@ -110,6 +110,23 @@ Este proyecto utiliza [`pre-commit`](https://pre-commit.com/) para aplicar autom
 
 ---
 
+
+---
+
+## 🙌 Contribuciones
+
+Este proyecto es open source y está en constante evolución. Si deseas contribuir, por favor:
+
+1. Abre un issue para proponer una mejora o reportar un bug.
+2. Crea un fork del repositorio y realiza los cambios en una rama nueva.
+3. Ejecuta los tests con `pytest` y asegúrate de que el código pase los hooks de `pre-commit`.
+4. Envía un Pull Request explicando claramente qué cambios realizaste.
+
+Si planeas integrar este lenguaje en una solución comercial o académica, por favor abre un [issue](https://github.com/tu_usuario/tu_repositorio/issues) para compartir tu caso de uso.
+
+¡Gracias por hacer parte del ecosistema de modelado con propósito!
+
+
 ## 📜 Licencia
 
 Este proyecto está en desarrollo. Su distribución como herramienta open-source o privativa está sujeta a decisión futura.
@@ -119,4 +136,5 @@ Este proyecto está en desarrollo. Su distribución como herramienta open-source
 ## 🤝 Contacto
 
 Proyecto desarrollado por **Grupo Zenith**.
-Consultas: [consultor@grupozenith.com](mailto:consultor@grupozenith.com)
+
+Para sugerencias, consultas o propuestas de colaboración, por favor abre un [issue](https://github.com/luisferpinilla/optimalystic/issues) en este repositorio.
