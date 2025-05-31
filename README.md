@@ -16,7 +16,7 @@ Si deseas utilizar este lenguaje en un proyecto o integración propia, te invita
 
 - ✅ Validación formal de modelos MIP con Pydantic
 - 📤 Exportación e importación en formato JSON
-- - 🧪 Pruebas unitarias incluidas con `pytest`
+- 🧪 Pruebas unitarias incluidas con `pytest`
 
 ---
 
@@ -65,13 +65,15 @@ mip_modeling_language/
 }
 ```
 
+Para obtener una documentacíón más detallada, consulte la [documentación](docs/lenguaje_modelado.md) del proyecto
+
 ---
 
 ## 🛠 Instalación
 
 ```bash
-git clone https://github.com/tu_usuario/mip_modeling_language.git
-cd mip_modeling_language
+git clone https://github.com/luisferpinilla/optimalystic.git
+cd optimalystic
 pip install -r requirements.txt
 ```
 
@@ -129,7 +131,7 @@ Si planeas integrar este lenguaje en una solución comercial o académica, por f
 
 ## 📜 Licencia
 
-Este proyecto está en desarrollo. Su distribución como herramienta open-source o privativa está sujeta a decisión futura.
+Este proyecto está en desarrollo. Su distribución como herramienta open-source esta sujeto a [licenciamiento](LICENSE).
 
 ---
 
