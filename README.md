@@ -34,17 +34,11 @@ Además, este lenguaje puede integrarse en aplicaciones empresariales como capa 
 mip_modeling_language/
 ├── mip_modeling_language/
 │   ├── models.py             # Definición del lenguaje MIP con Pydantic
-│   ├── parser.py             # Carga y validación de JSON
-│   ├── converters/           # Convertidores a distintos solvers
-│   ├── solvers/              # Ejecución de modelos en cada solver
-│   └── utils/                # Funciones auxiliares como control de licencias
 ├── tests/                    # Pruebas unitarias
 ├── examples/                 # Modelos de ejemplo en JSON
 ├── docs/                     # Documentación técnica del lenguaje
-├── scripts/                  # Ejecución de modelos desde línea de comandos
 ├── README.md
-├── requirements.txt
-└── pyproject.toml
+└── requirements.txt
 ```
 
 ---
@@ -88,17 +82,6 @@ git clone https://github.com/tu_usuario/mip_modeling_language.git
 cd mip_modeling_language
 pip install -r requirements.txt
 ```
-
----
-
-## 📦 Uso
-
-```bash
-python scripts/run_from_json.py examples/ejemplo_basico.json --solver pulp
-```
-
----
-
 
 ---
 
