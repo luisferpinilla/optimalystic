@@ -1,5 +1,9 @@
 # 📦 Optimalystic Modeling Language
 
+[![Tests](https://github.com/luisferpinilla/optimalystic/actions/workflows/test.yml/badge.svg)](https://github.com/luisferpinilla/optimalystic/actions)
+[![Coverage](https://img.shields.io/badge/coverage-auto-lightgrey)](https://github.com/luisferpinilla/optimalystic)
+
+
 **Lenguaje de modelado matemático basado en JSON para describir problemas de Programación Lineal Entera Mixta (MIP), validado estructuralmente con Pydantic.**
 
 ---
