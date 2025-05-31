@@ -1,19 +1,14 @@
 # 📦 Optimalystic Modeling Language
 
-**Lenguaje de modelado matemático basado en JSON para problemas de Programación Lineal Entera Mixta (MIP), validado con Pydantic y compatible con solvers como PuLP, OR-Tools, GLPK y SCIP.**
+**Lenguaje de modelado matemático basado en JSON para describir problemas de Programación Lineal Entera Mixta (MIP), validado estructuralmente con Pydantic.**
 
 ---
 
 ## 🚀 ¿Qué es este proyecto?
 
-Este proyecto define un lenguaje declarativo en formato JSON para modelar y resolver problemas de optimización lineal y entera. Los modelos son validados estructuralmente mediante [Pydantic](https://docs.pydantic.dev/) en Python, y pueden convertirse a objetos ejecutables por distintos solucionadores (solvers) como:
+Este proyecto define un lenguaje declarativo en formato JSON para modelar y resolver problemas de optimización lineal y entera. Los modelos son validados estructuralmente mediante [Pydantic](https://docs.pydantic.dev/) en Python y pueden ser utilizados como base para construir soluciones de optimización personalizadas.
 
-- [PuLP](https://coin-or.github.io/pulp/)
-- [Google OR-Tools](https://developers.google.com/optimization)
-- [GLPK](https://www.gnu.org/software/glpk/)
-- [SCIP](https://scipopt.org/) *(en desarrollo)*
-
-Además, este lenguaje puede integrarse en aplicaciones empresariales como capa intermedia entre lógica de negocio y soluciones de optimización, con soporte para ejecución remota vía AWS Lambda.
+Si deseas utilizar este lenguaje en un proyecto o integración propia, te invitamos a contactar a Grupo Zenith para coordinar el uso apropiado y contribuir a su evolución open source.
 
 ---
 
@@ -21,10 +16,7 @@ Además, este lenguaje puede integrarse en aplicaciones empresariales como capa 
 
 - ✅ Validación formal de modelos MIP con Pydantic
 - 📤 Exportación e importación en formato JSON
-- 🔄 Conversión a múltiples solvers (PuLP, OR-Tools, etc.)
-- 🔒 Soporte para validación de licencias
-- ☁️ Preparado para despliegue en AWS (Lambda, S3)
-- 🧪 Pruebas unitarias incluidas con `pytest`
+- - 🧪 Pruebas unitarias incluidas con `pytest`
 
 ---
 
