@@ -99,6 +99,42 @@ python scripts/run_from_json.py examples/ejemplo_basico.json --solver pulp
 
 ---
 
+
+---
+
+## 🧼 Pre-commit hooks
+
+Este proyecto utiliza [`pre-commit`](https://pre-commit.com/) para aplicar automáticamente reglas de estilo y validación antes de cada `git commit`.
+
+### 🔧 Instalación en Windows (PowerShell, CMD o Git Bash)
+
+1. Instala `pre-commit`:
+   ```bash
+   pip install pre-commit
+   ```
+
+2. Instala los hooks definidos:
+   ```bash
+   pre-commit install
+   ```
+
+3. Ejecuta los hooks manualmente en todos los archivos:
+   ```bash
+   pre-commit run --all-files
+   ```
+
+### ✅ Hooks incluidos (ejemplo)
+
+- `black`: formateador de código Python
+- `flake8`: detección de errores de estilo
+- `isort`: ordenamiento automático de imports
+- `end-of-file-fixer`: asegura saltos de línea al final de archivos
+- `check-yaml`, `check-json`: validación de sintaxis
+
+> Asegúrate de tener el archivo `.pre-commit-config.yaml` en la raíz del repositorio.
+
+---
+
 ## 📜 Licencia
 
 Este proyecto está en desarrollo. Su distribución como herramienta open-source o privativa está sujeta a decisión futura.
