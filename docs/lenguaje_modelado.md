@@ -7,8 +7,8 @@ Este archivo describe cómo utilizar el lenguaje JSON para modelar problemas de 
 ## ✅ Ejemplo 1: Modelo con todos los tipos de variables y restricciones
 
 ### 📊 Variables
-- $x \in \mathbb{R}^+ $: variable continua  
-- $y \in \mathbb{Z}^+ $: variable entera  
+- $x \in \mathbb{R}^+ $: variable continua
+- $y \in \mathbb{Z}^+ $: variable entera
 - $z \in \{0, 1\} $: variable binaria
 
 ### 🎯 Función objetivo
@@ -86,8 +86,8 @@ $$
 ## ✅ Ejemplo 2: Minimización con múltiples tipos de variables
 
 ### 📊 Variables
-- $ a \in \mathbb{R}^+ $: variable continua  
-- $ b \in \mathbb{Z},\ b \geq 1 $: variable entera  
+- $ a \in \mathbb{R}^+ $: variable continua
+- $ b \in \mathbb{Z},\ b \geq 1 $: variable entera
 - $ c \in \{0, 1\} $: variable binaria
 
 ### 🎯 Función objetivo

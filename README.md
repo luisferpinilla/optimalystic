@@ -107,5 +107,5 @@ Este proyecto está en desarrollo. Su distribución como herramienta open-source
 
 ## 🤝 Contacto
 
-Proyecto desarrollado por **Grupo Zenith**.  
+Proyecto desarrollado por **Grupo Zenith**.
 Consultas: [consultor@grupozenith.com](mailto:consultor@grupozenith.com)
